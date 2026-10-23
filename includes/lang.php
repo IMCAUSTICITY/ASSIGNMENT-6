@@ -1,0 +1,7 @@
+<?php
+// Simple localization table. Add more languages by adding another top-level key.
+return [
+  'en' => ['home'=>'Home','shop'=>'Shop','cart'=>'Cart','login'=>'Login','signup'=>'Sign up','logout'=>'Logout','account'=>'My Account','search'=>'Search products…','categories'=>'Categories','featured'=>'Featured Products','new'=>'New Arrivals','add_to_cart'=>'Add to cart','wishlist'=>'Wishlist','contact'=>'Contact','checkout'=>'Checkout','recent'=>'Recently viewed','subscribe'=>'Subscribe','newsletter'=>'Get offers in your inbox'],
+  'hi' => ['home'=>'होम','shop'=>'दुकान','cart'=>'कार्ट','login'=>'लॉग इन','signup'=>'साइन अप','logout'=>'लॉग आउट','account'=>'मेरा खाता','search'=>'उत्पाद खोजें…','categories'=>'श्रेणियाँ','featured'=>'विशेष उत्पाद','new'=>'नए उत्पाद','add_to_cart'=>'कार्ट में डालें','wishlist'=>'पसंदीदा','contact'=>'संपर्क','checkout'=>'चेकआउट','recent'=>'हाल ही में देखे','subscribe'=>'सदस्यता लें','newsletter'=>'ऑफ़र अपने इनबॉक्स में पाएं'],
+  'gu' => ['home'=>'હોમ','shop'=>'દુકાન','cart'=>'કાર્ટ','login'=>'લૉગિન','signup'=>'સાઇન અપ','logout'=>'લૉગઆઉટ','account'=>'મારું ખાતું','search'=>'ઉત્પાદનો શોધો…','categories'=>'શ્રેણીઓ','featured'=>'વિશેષ ઉત્પાદનો','new'=>'નવા ઉત્પાદનો','add_to_cart'=>'કાર્ટમાં ઉમેરો','wishlist'=>'પસંદગી','contact'=>'સંપર્ક','checkout'=>'ચેકઆઉટ','recent'=>'તાજેતરમાં જોયેલા','subscribe'=>'સબ્સ્ક્રાઇબ કરો','newsletter'=>'ઓફર્સ તમારા ઇનબૉક્સમાં મેળવો'],
+];
