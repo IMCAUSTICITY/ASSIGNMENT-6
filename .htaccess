@@ -1,0 +1,10 @@
+Options -Indexes
+RewriteEngine On
+# SEO-friendly URLs
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+RewriteRule ^product/([0-9]+)(-[A-Za-z0-9-]*)?/?$ product.php?id=$1 [L,QSA]
+RewriteRule ^category/([a-z0-9-]+)/?$ search.php?category=$1 [L,QSA]
+# Block direct access to sensitive files
+<FilesMatch "^(config\.php|database\.sql|README\.md)$">
+  Require all denied
+</FilesMatch>
